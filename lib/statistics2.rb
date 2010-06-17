@@ -602,7 +602,7 @@ module Statistics2
   module_function :poissondens, :poissondist, :poissonX_, :poisson_x
 end
 
-if !defined?(Statistics2::NO_EXT) || !Statistics2::NO_EXT
+if (!defined?(Statistics2::NO_EXT) || !Statistics2::NO_EXT) && !Kernel.is_windows?
   require 'statistics2.so'
 end
 
