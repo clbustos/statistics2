@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{statistics2}
-  s.version = "0.54"
+  s.version = "0.54.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brendan Ribera", "Shin-ichiro Hara"]
-  s.date = %q{2010-01-26}
+  s.date = %q{2010-06-16}
   s.description = %q{Statistics2 is a module that provides normal, Chi-square, t- and F- probability distributions for Ruby. It is a fork/continuation of Shin-ichiro Hara's original code. It provides a native, compiled extension and a pure Ruby implementation.}
   s.email = ["brendan.ribera@gmail.com", "sinara@blade.nagaokaut.ac.jp"]
   s.extensions = ["ext/extconf.rb"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.rdoc"]
   s.require_paths = ["lib", "ext"]
   s.rubyforge_project = %q{statistics2}
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{Statistical Distributions for Ruby. Based on Shin-ichiro Hara's original library, updated for Ruby 1.9}
   s.test_files = ["test/test_ext.rb", "test/test_inv.rb"]
 
