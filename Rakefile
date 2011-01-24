@@ -1,10 +1,11 @@
 #!/usr/bin/ruby
 # -*- ruby -*-
 
+$:.unshift(File.expand_path(File.dirname(__FILE__))+"/lib/")
 require 'rubygems'
 require 'hoe'
 require 'rake/extensiontask'
-require 'lib/statistics2/version'
+require 'statistics2/version'
 
 
 EXT="lib/statistics2.so"
