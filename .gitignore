@@ -1,6 +1,7 @@
 examples/*.tbl
 ext/*.o
 ext/*.so
+lib/*.so
 ext/Makefile
 doc
 pkg
