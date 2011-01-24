@@ -1,6 +1,7 @@
+$:.unshift(File.expand_path(File.dirname(__FILE__)+"/lib"))
 require 'rubygems'
 require 'hoe'
-require 'lib/statistics2/version'
+require 'statistics2/version'
 
 EXT = "ext/statistics2.so"
 
