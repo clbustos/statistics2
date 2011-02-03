@@ -7,7 +7,6 @@ require 'hoe'
 require 'rake/extensiontask'
 require 'statistics2/version'
 
-
 EXT="lib/statistics2.so"
 
 hoe_spec=Hoe.spec 'statistics2' do
@@ -37,5 +36,3 @@ end
 task :gem => :github
 task :test => [EXT]
 task :default => [:test]
-
-

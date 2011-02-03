@@ -1,6 +1,5 @@
-examples/*.tbl
-ext/statistics2/*.o
-ext/statistics2/*.so
+ext/*.o
+ext/*.so
 lib/*.so
 ext/Makefile
 doc
