@@ -1,5 +1,5 @@
 $:.unshift File.dirname(__FILE__)
-$:.unshift File.join(File.dirname(__FILE__), '..', 'ext')
+$:.unshift File.join(File.dirname(__FILE__), '..', 'ext/statistics2')
 $:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
 
 $test = true
@@ -7,7 +7,7 @@ $test = true
 require 'test/unit' unless defined?(Hoe)
 require 'sample_tbl'
 
-require 'statistics2.so'
+require 'statistics2'
 $mod = Statistics2
 
 
